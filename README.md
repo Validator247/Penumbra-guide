@@ -78,7 +78,7 @@ edit service files to customize for your system
     WantedBy=multi-user.target
     
     sudo systemctl daemon-reload
-    sudo systemctl restart penumbra cometbft
+    sudo systemctl restart pd
 
 
 Then (perhaps in another terminal), run CometBFT, specifying --home:
